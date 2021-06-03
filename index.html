@@ -1,10 +1,104 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-    
+    <img src="https://raw.githubusercontent.com/shlesha19/guitar/master/WhatsApp%20Image%202021-06-03%20at%205.52.44%20PM.jpeg" height="100%">
+
+
+
+    <audio id="myAudio">
+  <source src="https://cdn.jsdelivr.net/gh/shlesha19/guitar@master/eminor.ogg" type="audio/ogg">
+
+Your browser does not support the audio element.
+</audio>
+<button onclick="playAudio()" type="button" id="bu">E</button>
+<script>
+  var em = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  em.play(); 
+} 
+
+  </script>
+
+  <audio id="myAudiob">
+  <source src="https://cdn.jsdelivr.net/gh/shlesha19/guitar@master/bstring.ogg" type="audio/ogg">
+
+Your browser does not support the audio element.
+</audio>
+<button onclick="playAudiob()" type="button" id="bb">B</button>
+<script>
+  var b = document.getElementById("myAudiob"); 
+
+function playAudiob() { 
+  b.play(); 
+} 
+
+  </script>
+
+  <audio id="myAudiog">
+  <source src="https://cdn.jsdelivr.net/gh/shlesha19/guitar@master/gstring.ogg" type="audio/ogg">
+
+Your browser does not support the audio element.
+</audio>
+<button onclick="playAudiog()" type="button" id="bg">G</button>
+<script>
+  var g = document.getElementById("myAudiog"); 
+
+function playAudiog() { 
+  g.play(); 
+}
+
+  </script>
+
+  <audio id="myAudiod">
+  <source src="https://cdn.jsdelivr.net/gh/shlesha19/guitar@master/dstring.ogg" type="audio/ogg">
+
+Your browser does not support the audio element.
+</audio>
+<button onclick="playAudiod()" type="button" id="bd">D</button>
+<script>
+  var d = document.getElementById("myAudiod"); 
+
+function playAudiod() { 
+  d.play(); 
+}
+
+  </script>
+
+  <audio id="myAudioa">
+  <source src="https://cdn.jsdelivr.net/gh/shlesha19/guitar@master/astring.ogg" type="audio/ogg">
+
+Your browser does not support the audio element.
+</audio>
+<button onclick="playAudioa()" type="button" id="ba">A</button>
+<script>
+  var a = document.getElementById("myAudioa"); 
+
+function playAudioa() { 
+  a.play(); 
+}
+
+
+  </script>
+
+  <audio id="myAudioe">
+  <source src="https://cdn.jsdelivr.net/gh/shlesha19/guitar@master/WhatsApp%20Ptt%202021-06-03%20at%204.26.23%20PM.ogg" type="audio/ogg">
+
+Your browser does not support the audio element.
+</audio>
+<button onclick="playAudioe()" type="button" id="be">E</button>
+<script>
+  var e = document.getElementById("myAudioe"); 
+
+function playAudioe() { 
+  e.play(); 
+}
+
+  </script>
   </body>
 </html>

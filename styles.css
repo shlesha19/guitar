@@ -1,3 +1,55 @@
-body {
-  background: orange;
+img {
+  width: 100%;
+  height: auto;
 }
+
+#be {
+  position: absolute;
+  top:35%;
+  left:45%;
+  border-radius: 50%;
+  
+}
+
+#ba {
+  position: absolute;
+  top:42%;
+  left:46.7%;
+  border-radius: 50%;
+   
+}
+
+#bd {
+  position: absolute;
+  top:48.5%;
+  left:48%;
+  border-radius: 50%;
+   
+}
+
+#bg {
+  position: absolute;
+  top:54.8%;
+  left:49.8%;
+  border-radius: 50%;
+  
+}
+
+#bb {
+  position: absolute;
+  top:61%;
+  left:51.5%;
+  border-radius: 50%;
+   
+}
+
+#bu {
+  position: absolute;
+  top:66%;
+  left:53%;
+  border-radius: 50%;
+   
+}
+
+
+
